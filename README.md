@@ -197,6 +197,7 @@ curl \
 ```
 
 The `begin` and `end` take `MMYY` as their arguments. That is, if you want October 2016 you need to use `1016`.
+If you like to get your Zoes complete charge history you can set `begin` to `0000` and `end` to `1039` (maximum allowed value).
 
 This returns an array, the most recent charging session at the top.
 
